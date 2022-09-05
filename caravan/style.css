@@ -3,39 +3,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
 }
 
-.header {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
-  background-color: red; /* 背景色red */
-}
-    .header-top {
-  width: 100%; /* 横幅いっぱい */
-  height: 70px; /* 高さ70px */
-  background-color: hotpink; /* 背景色hotpink */
+a {
+  text-decoration: none;
 }
 
-    .header-bottom {
-  width: 100%; /* 横幅いっぱい */
-  height: 50px; /* 高さ50px */
-  background-color: pink; /* 背景色pink */
+header {
+  width: 90%; /* 横幅90% */
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.main-visual {
+header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+}
+
+
+  .nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+  .nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+
+  .main-visual {
   width: 100%; /* 横幅いっぱい */
   height: 300px; /* 高さ300px */
-  background-color: orange; /* 背景色orange */
 }
-    .main-visual-content {
+      .main-visual-content {
   width: 350px; /* 横幅350px */
   height: 300px; /* 親の高さに揃える */
-  background-color: gold; /* 背景色gold */
 }
 
 .main {
   width: 840px; /* 横幅840px */
-
   display: flex; /* Flexboxの利用 */
   justify-content: center; /* 子要素の横並び・中央寄せ */
   margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
@@ -44,17 +54,22 @@
     .blog {
   width: 600px; /* 横幅600px */
   height: 1400px; /* 高さ1400px */
-  background-color: limegreen; /* 背景色limegreen */
 }
 
     .sidebar {
   width: 240px; /* 横幅240px */
   height: 1400px; /* 高さ1400px */
-  background-color: palegreen; /* 背景色palegreen */
 }
 
-.footer {
+
+footer {
   width: 100%; /* 横幅いっぱい */
   height: 120px; /* 高さ120px */
-  background-color: blue; /* 背景色blue */
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+  .footer-text {
+  color: #fff;
 }
