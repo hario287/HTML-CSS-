@@ -1,4 +1,4 @@
-total_price = "100"
+total_price = 100
 
 if total_price > 100
   puts "みかんを購入。所持金に余りあり。"
@@ -6,6 +6,6 @@ if total_price > 100
 elsif total_price == 100
   puts "みかんを購入。所持金は0。"
 
-else total_price < 100
+else # total_price < 100 とは書かないでいい
   puts "みかんを購入することができません。"
 end
